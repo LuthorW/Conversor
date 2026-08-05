@@ -17,7 +17,7 @@ print("✨ Iniciando a conversão mágica...")
 
 for arquivo in arquivos:
     # Verifica se é uma imagem (ignora outros tipos de arquivo)
-    if arquivo.lower().endswith(('.jpg', '.jpeg', '.webp', '.bmp', '.gif')):
+    if arquivo.lower().endswith(('.jpg', '.jpeg', '.webp', '.bmp', '.gif', '.avif', '.tiff')): # se funcionar
         caminho_completo = os.path.join(pasta_origem, arquivo)
         
         try:
