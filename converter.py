@@ -13,7 +13,7 @@ conversoes_feitas = 0
 print("Iniciando a conversão...")
 
 for arquivo in arquivos:
-    if arquivo.lower().endswith(('.jpg', '.jpeg', '.webp', '.bmp', '.gif', '.avif', '.tiff')):
+    if arquivo.lower().endswith(('.jpg', '.jpeg', '.webp', '.bmp', '.gif', '.avif', '.tiff', '.png')):
         caminho_completo = os.path.join(pasta_origem, arquivo)
         
         try:
